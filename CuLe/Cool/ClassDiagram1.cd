@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CuLe.ADONET.DataSet1" Collapsed="true">
+    <Position X="79.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ConstraintDef">
+    <Position X="7.75" Y="27.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstraintDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.PrimaryKeyConstraintDef">
+    <Position X="0.5" Y="30" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstraintDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ForeignKeyConstraintDef">
+    <Position X="5" Y="30" Width="3.75" />
+    <NestedTypes>
+      <Enum Name="CuLe.ForeignKeyConstraintDef.Multiplicity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ConstraintDef.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>ConstraintDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.UniqueConstraintDef">
+    <Position X="9.5" Y="30" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstraintDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.NotNullConstraintDef">
+    <Position X="13.75" Y="30" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstraintDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLe" Collapsed="true">
+    <Position X="74.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAEAACAAAAAAkBEAAAAAAAAAAAAACACAAADA=</HashCode>
+      <FileName>Cool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ErrorMessage" Collapsed="true">
+    <Position X="74.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Cool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeDataAlloyInstance" Collapsed="true">
+    <Position X="76" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQECAAAAAAgUAgAAIAAgABAAAAAAAAAAAQAQAAA=</HashCode>
+      <FileName>CoolDataAlloyInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeDataSet" Collapsed="true">
+    <Position X="77.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAABAGAAAAAABAAABAAEAAAAAAAAAAAACAAgAA=</HashCode>
+      <FileName>CoolDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeGrammar" Collapsed="true">
+    <Position X="79.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolGrammar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRule">
+    <Position X="12.75" Y="19.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAABEAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.SetOperatorCuLeRule" Collapsed="true">
+    <Position X="1" Y="22.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEoAAAAAIAAAAAABEIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.NegationCuLeRule">
+    <Position X="3.5" Y="22.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.RuleOperatorCuLeRule">
+    <Position X="8.25" Y="22.5" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAMAAAAIAAAAAABEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ConditionalCuLeRule" Collapsed="true">
+    <Position X="21.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ImplicationCuLeRule" Collapsed="true">
+    <Position X="24" Y="24" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.IF_ImplicationCuLeRule">
+    <Position X="20.75" Y="25.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.IF_ELSE_ImplicationCuLeRule" Collapsed="true">
+    <Position X="26.5" Y="25.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAACAAAQ=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.EquivalenceCuLeRule">
+    <Position X="15.5" Y="24" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAMAAAAAAAAAAABEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRuleFactory" Collapsed="true">
+    <Position X="79.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAACAAAAAAAAAAAACQAIAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRuleGroup" Collapsed="true">
+    <Position X="74.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAgAAAAAAAUAAAAAAAABBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSetType">
+    <Position X="16.25" Y="36.5" Width="3" />
+    <NestedTypes>
+      <Enum Name="CuLe.CuLeSetType.Multiplicity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CoolSet.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CuLe.CuLeSetType.SignatureType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CoolSet.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ElementsCuLeSetType">
+    <Position X="23.5" Y="39.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.FieldCuLeSetType">
+    <Position X="18.25" Y="42" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAABACAEAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.SingleFieldCuLeSetType">
+    <Position X="15.5" Y="44.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQ=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.MultipleFieldCuLeSetType">
+    <Position X="20" Y="44.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.TupleCuLeSetType">
+    <Position X="28" Y="42" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.SingleTupleCuLeSetType">
+    <Position X="30.75" Y="43.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.MultipleTupleCuLeSetType">
+    <Position X="24.75" Y="43.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.RelationCuLeSetType">
+    <Position X="1.25" Y="39.25" Width="9.75" />
+    <TypeIdentifier>
+      <HashCode>AIABAQAEAAAAAAAAAAEgAAAAAAAAAAAAAABAAAgACAI=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.EmptySetCuLeSetType">
+    <Position X="11.75" Y="39.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSet">
+    <Position X="36.25" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAACAAAAAABEAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ArgumentNameCuLeSet">
+    <Position X="7.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.DBTableCuLeSet">
+    <Position X="3" Y="5.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEACBAAAAAAAAAAAAAAAABEAAAAAAAAAQEAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.SystemFieldCuLeSet">
+    <Position X="9.25" Y="5.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.TupleListCuLeSet">
+    <Position X="37.25" Y="3.75" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEAAAAAAAAAAAAAAAAIAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.EmptyCuLeSet">
+    <Position X="44" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.AttributeCuLeSet">
+    <Position X="59" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAIAAAAAAAAAAAQBAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.TableFieldAttributeCuLeSet">
+    <Position X="48.75" Y="7" Width="8" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAIAAAAAAAAAAEACEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.RelationAttributeCuLeSet">
+    <Position X="64.25" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.RegularRelationAttributeCuLeSet">
+    <Position X="57.5" Y="10" Width="7.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.TransposeRelationAttributeCuLeSet">
+    <Position X="65.75" Y="10" Width="7.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.WhereClauseCuLeSet">
+    <Position X="14.75" Y="3.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEBAAAAAAAAAAAAAAAAAQBEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.SetOperationCuLeSet">
+    <Position X="20.5" Y="3.75" Width="7.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAABEACSAAAAAEAAQAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ConstantValueCuLeSet">
+    <Position X="28.75" Y="3.75" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIAAgAEQAgAAAAAAAAAREACAAAQAgAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CuLe.WhereExpression">
+    <Position X="42" Y="36.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.BinaricWhereExpression">
+    <Position X="36.25" Y="38.75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBIAAAAAIAAAAAABEICAEAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.OperatorWhereExpression">
+    <Position X="43.75" Y="38.75" Width="8.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAAAAAIAAAAAABEACCAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.WhereClause" Collapsed="true">
+    <Position X="79.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSetFactory" Collapsed="true">
+    <Position X="76" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQAACAAAACAAEAAAACAAIAAAAAAACACAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeTransaction" Collapsed="true">
+    <Position X="77.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAAAAQAAAgAAABBAAAAIAAAwAAAAAAAA=</HashCode>
+      <FileName>CoolTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.Statement">
+    <Position X="35" Y="18.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.StatementList" Collapsed="true">
+    <Position X="76" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAIAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CreateTableStatement">
+    <Position X="35" Y="20.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQ=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRuleStatement">
+    <Position X="39.25" Y="20.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeTransactionStatement">
+    <Position X="30.25" Y="20.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEGACJAAAAAAAAgAAAgAIBAAAJAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeQuantifier">
+    <Position X="32" Y="27.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAAAAAAQAAAAMAAAAAAAAAAABAAE=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeBaseValueQuantifier">
+    <Position X="26.25" Y="31.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSingleBaseValueQuantifier">
+    <Position X="20" Y="34" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeMultiBaseValueQuantifier">
+    <Position X="27.5" Y="34" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeTupleQuantifier">
+    <Position X="40.75" Y="31.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSingleTupleQuantifier">
+    <Position X="35" Y="34" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeMultiTupleQuantifier">
+    <Position X="42.25" Y="34" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeQuantifierList" Collapsed="true">
+    <Position X="74.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeDef">
+    <Position X="20.5" Y="9.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABCAAAAAECAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRuleDef">
+    <Position X="13" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.SetOperatorCuLeRuleDef">
+    <Position X="1.75" Y="14.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAIAAAAAAAAASAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.RuleOperatorCuLeRuleDef">
+    <Position X="6.5" Y="14.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAQAAAJAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.NegationCuLeRuleDef">
+    <Position X="11.25" Y="14.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ConditionalCuLeRuleDef">
+    <Position X="19.75" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.ImplicationCuLeRuleDef" Collapsed="true">
+    <Position X="17.5" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAADAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.IF_ImplicationCuLeRuleDef" Collapsed="true">
+    <Position X="15.75" Y="17.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.IF_ELSE_ImplicationCuLeRuleDef" Collapsed="true">
+    <Position X="18.5" Y="17.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.EquivalenceCuLeRuleDef">
+    <Position X="21.75" Y="16.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAJAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRuleDefFactory" Collapsed="true">
+    <Position X="76" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeRuleDefList" Collapsed="true">
+    <Position X="77.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSetDef">
+    <Position X="26.5" Y="12.75" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="CuLe.CuLeSetDef.SetOperation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Statement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.WhereClauseDef">
+    <Position X="30.5" Y="12.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.WhereExpressionDef">
+    <Position X="36.5" Y="12.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.BinaricWhereExpressionDef">
+    <Position X="34.75" Y="14.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAIAAAAAAAAAAAAAAIAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.OperatorWhereExpressionDef">
+    <Position X="39.5" Y="14.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIAAAAAAAAAAIAAAAAAAAAAAAAADAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.TableFieldDef" Collapsed="true">
+    <Position X="77.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAIAAAA=</HashCode>
+      <FileName>TableFieldDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.LocalVariableCuLeSet" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAEAAAAAAABEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>CoolSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuLe.CuLeSystemField" Collapsed="true">
+    <Position X="22.5" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CuLe.AlloySignature" Collapsed="true">
+    <Position X="74.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAACAgABAAAABAAAAQA=</HashCode>
+      <FileName>CoolDataAlloyInstance.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CuLe.SetOperator" Collapsed="true">
+    <Position X="79.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAABECEAAAAAAAAAAAAAAAAAAAAAAEAAAIAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CuLe.RuleOperator" Collapsed="true">
+    <Position X="77.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CuLe.QuantifierMultiplicity" Collapsed="true">
+    <Position X="76" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

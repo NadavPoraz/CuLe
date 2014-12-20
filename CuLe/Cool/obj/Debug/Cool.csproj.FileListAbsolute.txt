@@ -1,0 +1,5 @@
+C:\Users\Nadav_000\documents\visual studio 2010\Projects\Cool\Cool\bin\Debug\Cool.dll
+C:\Users\Nadav_000\documents\visual studio 2010\Projects\Cool\Cool\bin\Debug\Cool.pdb
+C:\Users\Nadav_000\documents\visual studio 2010\Projects\Cool\Cool\bin\Debug\Irony.dll
+C:\Users\Nadav_000\documents\visual studio 2010\Projects\Cool\Cool\obj\Debug\Cool.dll
+C:\Users\Nadav_000\documents\visual studio 2010\Projects\Cool\Cool\obj\Debug\Cool.pdb
